@@ -11,8 +11,71 @@
     <main class="container mt-10">
         <div class="bg-body-tertiary p-5 rounded">
             <!-- LOGO -->
-            <img src="images/lahmacun.jpg" class="rounded mx-auto d-block rounded-circle mb-10" style="height: 50%; width: 50%;">
-            <!-- MENU TAB -->
+            <img src="images/lahmacun.png" class="rounded mx-auto d-block mb-10" style="height: 50%; width: 50%;">
+            <!-- Accordion MENU -->
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Çorbalar
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Lahmacunlar
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Izgaralar
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <!-- Adana Porsiyon-->
+                            <div class="row featurette mt-11">
+                                <div class="col-md-3 order-md-1 mb-2">
+                                    <img class="featurette-image img-fluid mx-auto" style="width: 400px; height: 150px; border: solid 2px; border-radius: 5px; " src="images/products/grills/adana_p.JPG" data-holder-rendered="true">
+                                </div>
+                                <div class="col-md-7 order-md-2">
+                                    <h2 class="featurette-heading">Adana Porsiyon</h2>
+                                    <p class="lead"></p>
+                                </div>
+                                <div class="col-md-2 order-md-3">
+                                    <p class="lead">150₺</p>
+                                    <p class="lead"></p>
+                            </div>
+                            <hr class="hr" />
+                            <!-- Ciğer Porsiyon -->
+                            <div class="row featurette mt-11">
+                                <div class="col-md-3 order-md-1 mb-2">
+                                    <img class="featurette-image img-fluid mx-auto" style="width: 400px; height: 150px; border: solid 2px; border-radius: 5px; " src="images/products/grills/ciger_p.JPG" data-holder-rendered="true">
+                                </div>
+                                <div class="col-md-7 order-md-2">
+                                    <h2 class="featurette-heading">Ciğer Porsiyon</h2>
+                                    <p class="lead"></p>
+                                </div>
+                                <div class="col-md-2 order-md-3">
+                                    <p class="lead">170₺</p>
+                                    <p class="lead"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!-- TAB MENU
             <nav>
                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
                     <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Çorbalar</button>
@@ -22,12 +85,18 @@
             </nav>
                 <div class="tab-content" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                    <!-- Izgaralar -->
+                    
+                </div>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    
+                </div>
+                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                --> <!-- Izgaralar -->
+                    <!-- Adana Porsiyon--> <!--
                     <div class="row featurette mt-11">
                         <div class="col-md-3 order-md-1 mb-2">
                             <img class="featurette-image img-fluid mx-auto" style="width: 400px; height: 150px; border: solid 2px; border-radius: 5px; " src="images/products/grills/adana_p.JPG" data-holder-rendered="true">
                         </div>
-                        <br>
                         <div class="col-md-7 order-md-2">
                             <h2 class="featurette-heading">Adana Porsiyon</h2>
                             <p class="lead"></p>
@@ -37,10 +106,22 @@
                             <p class="lead"></p>
                         </div>
                     </div>
+                --><!-- Ciğer Porsiyon--><!--
+                    <div class="row featurette mt-11">
+                        <div class="col-md-3 order-md-1 mb-2">
+                            <img class="featurette-image img-fluid mx-auto" style="width: 400px; height: 150px; border: solid 2px; border-radius: 5px; " src="images/products/grills/ciger_p.JPG" data-holder-rendered="true">
+                        </div>
+                        <div class="col-md-7 order-md-2">
+                            <h2 class="featurette-heading">Ciğer Porsiyon</h2>
+                            <p class="lead"></p>
+                        </div>
+                        <div class="col-md-2 order-md-3">
+                            <p class="lead">170₺</p>
+                            <p class="lead"></p>
+                        </div>
+                    </div>
                 </div>
-                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
-                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
-            </div>
+            </div> -->
         </div>
       </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
